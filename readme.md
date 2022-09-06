@@ -12,8 +12,8 @@ An awesome list for everything around APIs as a business!
 
 <!-- image -->
 
-<a href="" target="_blank" rel="noopener noreferrer">
-  <img src="" />
+<a href="https://github.com/spekulatius/awesome-api-as-a-business" target="_blank" rel="noopener noreferrer">
+  <img src="logo.png" />
 </a>
 
 <!-- description -->
@@ -24,8 +24,7 @@ An awesome list for everything around APIs as a business!
 
 ## Contents
 
-- [Featured (new releases)](#featured-new-releases)
-- [Section 1](#section-1)
+- [Stories](#stories)
 - [Follow](#follow)
 
 <!-- CONTENT -->
@@ -34,9 +33,9 @@ An awesome list for everything around APIs as a business!
 
 - [Apple](https://apple.com) - Apple as a placeholder.
 
-## Section 1
+## Stories
 
-- [Microsoft](https://www.microsoft.com/) - Microsoft as an example.
+- [How I Accidentally Built an API Business](https://www.freecodecamp.org/news/how-i-accidentally-built-an-api-business/) - Wenbin Fang's story of building an API business *by accident*.
 
 <!-- END CONTENT -->
 
