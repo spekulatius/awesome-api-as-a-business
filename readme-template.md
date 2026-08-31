@@ -36,11 +36,11 @@ example.
 
 ## Featured (new releases)
 
-- [Apple](https://apple.com) - Apple as a placeholder.
+- [Apple](https://apple.com) - Used here as a placeholder.
 
 ## Section 1
 
-- [Microsoft](https://www.microsoft.com/) - Microsoft as an example.
+- [Microsoft](https://www.microsoft.com/) - Used here as an example.
 
 <!-- END CONTENT -->
 
