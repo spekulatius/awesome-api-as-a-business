@@ -2,6 +2,11 @@
 
 Awesome API-as-a-Business is a curated [awesome-list](https://github.com/sindresorhus/awesome) — a list of API-as-a-business resources, kept in `readme.md`.
 
+## Branching
+
+- Work directly on the `main`/`master` branch by default.
+- Only create a separate branch when explicitly instructed to.
+
 ## Commit messages
 
 - One line only — no body, no trailers.
