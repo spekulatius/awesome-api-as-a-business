@@ -19,6 +19,7 @@ A curated list of resources for building, running, and growing an API as a busin
 - [Marketplaces & Directories](#marketplaces--directories)
   - [Regional & Niche Marketplaces](#regional--niche-marketplaces)
 - [API Gateways & Management](#api-gateways--management)
+- [Monetization & Billing](#monetization--billing)
 
 <!-- CONTENT -->
 
@@ -51,6 +52,16 @@ A curated list of resources for building, running, and growing an API as a busin
 - [Fusio](https://www.fusio-project.org/) - Open source API management platform with a built-in developer portal and monetization support out of the box.
 - [WSO2 API Manager](https://wso2.com/api-manager/) - Full API lifecycle management platform, open source under Apache-2.0.
 - [Envoy Gateway](https://gateway.envoyproxy.io/) - CNCF project providing a vendor-neutral, Kubernetes-native implementation of the Gateway API on top of Envoy Proxy.
+
+## Monetization & Billing
+
+Case studies of API-first businesses billing customers directly through a payment gateway like Stripe, rather than bolting on a separate metering platform - including where that approach holds up and where it starts to break down.
+
+- [Supabase: usage-based billing on Stripe](https://stripe.com/customers/supabase) - Supabase calculates usage and fees itself, then forwards the final amount straight to Stripe's Payments API for processing.
+- [Stripe Sync Engine](https://github.com/stripe/sync-engine) - Open source (Apache-2.0) webhook-driven tool, originally built and open sourced by Supabase, now maintained by Stripe, that mirrors Stripe billing objects into Postgres for anyone billing natively on Stripe.
+- [How we built it: Usage-based billing](https://stripe.com/blog/how-we-built-it-usage-based-billing) - Stripe's own engineering write-up on building a high-throughput, low-latency metering and revenue-ledger pipeline for billing on raw usage events.
+- [Why Stripe bought Metronome](https://sacra.com/research/why-stripe-bought-metronome/) - Analysis of why AI/API companies such as OpenAI, Anthropic, Databricks, and Nvidia chose a dedicated metering layer over billing usage on Stripe natively, and what that reveals about the limits of native gateway billing at very high event volumes.
+- [Why Stripe usage-based billing is fundamentally broken for AI products](https://hackernoon.com/why-stripe-usage-based-billing-is-fundamentally-broken-for-ai-products) - A practitioner's critique of the timing and reconciliation problems that surface when metering AI/API usage directly against Stripe's billing meters.
 
 <!-- END CONTENT -->
 
