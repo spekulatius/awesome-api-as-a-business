@@ -1,30 +1,39 @@
-# Awesome List Template
+<div align="center">
 
-This is an [awesome-list](https://github.com/sindresorhus/awesome) template with
-CI to run [awesome-lint](https://github.com/sindresorhus/awesome-lint) and
-[awesome_bot](https://github.com/dkhamsing/awesome_bot) to be compliant from the
-beginning.
+<!-- title -->
 
-## Usage
+<!--lint ignore no-dead-urls-->
 
-1. [generate a template of this repo](https://github.com/jthegedus/awesome-list-template/generate)
-2. run a find & replace of `YOUR_GITHUB_USER/YOUR_REPO` with your details
-3. edit `readme-template.md`
-   - update the h1 title
-   - update the subtitle
-   - update the description
-   - add img src, make it link to the site of the thing in the image.
-4. choose a CI template
-   - GitHub Action: move config folder from `repo-root/ci/.github/` to
-     `repo-root/.github`
-   - Circle CI: move config folder from `repo-root/ci/.circleci/*` to
-     `repo-root/.circleci/*`
-   - GitLab CI: move config file from `repo-root/ci/.gitlab-ci.yml` to the
-     `repo-root/.gitlab-ci.yml`
-5. run a find & replace `readme-template.md` to `readme.md` in the CI you chose
-5. delete this file
-6. rename `readme-template.md` file to `readme.md`
+# Awesome API-as-a-Business [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/spekulatius/awesome-api-as-a-business/actions/workflows/lint.yaml/badge.svg)](https://github.com/spekulatius/awesome-api-as-a-business/actions/workflows/lint.yaml)
+
+<!-- subtitle -->
+
+A curated list of resources for building, running, and growing an API as a business.
+
+</div>
+
+<!-- TOC -->
+
+## Contents
+
+- [Marketplaces & Directories](#marketplaces--directories)
+
+<!-- CONTENT -->
+
+## Marketplaces & Directories
+
+- [RapidAPI Hub](https://rapidapi.com/hub) - The largest API marketplace for discovering, testing, and monetizing APIs.
+- [Postman API Network](https://www.postman.com/explore) - Discovery and collaboration network for public APIs, built into Postman.
+- [APIs.guru](https://apis.guru/) - Open source, community-curated directory of OpenAPI/Swagger definitions for thousands of public APIs.
+- [Public APIs](https://github.com/public-apis/public-apis) - Open source, collaborative list of free public APIs for software and web development.
+- [APILayer Marketplace](https://apilayer.com/) - Curated marketplace of first- and third-party APIs focused on data, validation, and utility services.
+
+<!-- END CONTENT -->
 
 ## Contributing
 
-Contributions welcome!
+[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
+
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/spekulatius/awesome-api-as-a-business/graphs/contributors)!
