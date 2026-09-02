@@ -18,6 +18,7 @@ A curated list of resources for building, running, and growing an API as a busin
 
 - [Marketplaces & Directories](#marketplaces--directories)
   - [Regional & Niche Marketplaces](#regional--niche-marketplaces)
+- [API Gateways & Management](#api-gateways--management)
 
 <!-- CONTENT -->
 
@@ -39,6 +40,17 @@ A curated list of resources for building, running, and growing an API as a busin
 - [API Setu](https://apisetu.gov.in/) - India's government-run open API platform and marketplace, run by the Ministry of Electronics and IT.
 - [OpenAPIHub (FabriXAPI)](https://www.openapihub.com/) - Hong Kong-based API hub and portal platform serving the Asia-Pacific developer community.
 - [APIBrasil](https://www.apibrasil.com.br/) - Brazil-focused marketplace of local APIs, including CPF/CNPJ lookups, WhatsApp, and postal code services.
+
+## API Gateways & Management
+
+- [Kong Gateway](https://github.com/Kong/kong) - The most widely deployed open source API gateway, with a large plugin ecosystem.
+- [Apache APISIX](https://apisix.apache.org/) - Fully Apache-2.0 licensed gateway with 100+ plugins and a built-in dashboard.
+- [Tyk Gateway](https://github.com/TykTechnologies/tyk) - Open source gateway core with GraphQL federation and multi-language plugins; dashboard and portal are paid add-ons.
+- [KrakenD](https://www.krakend.io/) - Stateless, high-performance gateway with a free, open source Community Edition.
+- [Gravitee](https://www.gravitee.io/) - Open source gateway supporting both REST and event-driven APIs (Kafka, MQTT, WebSocket), with plugin-based billing.
+- [Fusio](https://www.fusio-project.org/) - Open source API management platform with a built-in developer portal and monetization support out of the box.
+- [WSO2 API Manager](https://wso2.com/api-manager/) - Full API lifecycle management platform, open source under Apache-2.0.
+- [Envoy Gateway](https://gateway.envoyproxy.io/) - CNCF project providing a vendor-neutral, Kubernetes-native implementation of the Gateway API on top of Envoy Proxy.
 
 <!-- END CONTENT -->
 
