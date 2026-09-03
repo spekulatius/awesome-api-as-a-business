@@ -20,6 +20,7 @@ A curated list of resources for building, running, and growing an API as a busin
   - [Regional & Niche Marketplaces](#regional--niche-marketplaces)
 - [API Gateways & Management](#api-gateways--management)
 - [Monetization & Billing](#monetization--billing)
+- [Developer Portals](#developer-portals)
 
 <!-- CONTENT -->
 
@@ -62,6 +63,13 @@ Case studies of API-first businesses billing customers directly through a paymen
 - [How we built it: Usage-based billing](https://stripe.com/blog/how-we-built-it-usage-based-billing) - Stripe's own engineering write-up on building a high-throughput, low-latency metering and revenue-ledger pipeline for billing on raw usage events.
 - [Why Stripe bought Metronome](https://sacra.com/research/why-stripe-bought-metronome/) - Analysis of why AI/API companies such as OpenAI, Anthropic, Databricks, and Nvidia chose a dedicated metering layer over billing usage on Stripe natively, and what that reveals about the limits of native gateway billing at very high event volumes.
 - [Why Stripe usage-based billing is fundamentally broken for AI products](https://hackernoon.com/why-stripe-usage-based-billing-is-fundamentally-broken-for-ai-products) - A practitioner's critique of the timing and reconciliation problems that surface when metering AI/API usage directly against Stripe's billing meters.
+
+## Developer Portals
+
+- [Backstage](https://backstage.io/) - CNCF, Apache-2.0 licensed developer portal and software catalog; primarily built for cataloging internal services, but its OpenAPI/AsyncAPI plugins can surface API docs alongside ownership and lifecycle metadata.
+- [Fusio](https://www.fusio-project.org/) - Self-hosted, open source platform that turns your backend into an API product with an automated customer-facing developer portal, SDK generation, and built-in monetization.
+- [Gravitee](https://www.gravitee.io/) - Open source API management suite including a customer-facing developer portal, analytics, and access management, with a strong focus on European data sovereignty.
+- [Zudoku](https://zudoku.dev/) - MIT licensed, framework-style developer portal for turning an OpenAPI spec into a themed docs site with an interactive try-it playground and API key management; powers Zuplo's built-in portal but works standalone.
 
 <!-- END CONTENT -->
 
